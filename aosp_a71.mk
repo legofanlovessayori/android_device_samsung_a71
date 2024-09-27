@@ -11,7 +11,7 @@ $(call inherit-product, device/samsung/a71/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_a71
+PRODUCT_NAME := aosp_a71
 PRODUCT_DEVICE := a71
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A715
