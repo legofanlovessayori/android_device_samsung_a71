@@ -6,6 +6,13 @@
 
 // Ramdisk's Hw
 
+prebuilt_hidl_interfaces {
+    name: "hidl_nxpnfc_interface",
+    interfaces: [
+        "vendor.nxp.nxpnfc@1.1::INxpNfc",
+    ],
+}
+
 prebuilt_etc {
     name: "init.a71.rc",
     src: "vendor/etc/init/hw/init.a71.rc",
