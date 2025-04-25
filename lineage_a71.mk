@@ -17,6 +17,21 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A715
 PRODUCT_MANUFACTURER := samsung
 
+# Maintainer info
+RISING_MAINTAINER := Legofan
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Qualcomm Snapdragon 730(G)" \
+    RisingMaintainer="Legofan"
+	
+# Rising Specific
+TARGET_ENABLE_BLUR := true
+
+# GMS
+WITH_GMS := true
+TARGET_USES_FULL_GAPPS := true
+TARGET_INCLUDE_GOOGLE_DIALER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
 # Use the latest approved GMS identifiers
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
