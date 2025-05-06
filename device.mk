@@ -35,3 +35,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/samsung/a71/a71-vendor.mk)
+
+# Get source for ViperFX
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
