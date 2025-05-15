@@ -28,9 +28,7 @@ TARGET_ENABLE_BLUR := true
 
 # GMS
 WITH_GMS := true
-TARGET_USES_FULL_GAPPS := true
 TARGET_INCLUDE_GOOGLE_DIALER := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
 
 # Use the latest approved GMS identifiers
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
