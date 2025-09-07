@@ -15,7 +15,7 @@ TARGET_OTA_ASSERT_DEVICE := a71
 TARGET_BOARD_NAME := SRPSF18B011
 
 # FOD
-$(call soong_config_set,samsung_udfps,udfps_zorder,0x20000000u)
+$(call soong_config_set,samsungUdfpsVars,udfps_zorder,0x20000000u)
 
 TARGET_USES_FOD_ZPOS := true
 
