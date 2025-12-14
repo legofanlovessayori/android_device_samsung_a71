@@ -17,6 +17,18 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-A715
 PRODUCT_MANUFACTURER := samsung
 
+# Axion build configs
+TARGET_ENABLE_BLUR := true
+TARGET_DISABLE_EPPE := true
+TARGET_INCLUDES_LOS_PREBUILTS := true
+
+
+# Axion "About Phone" page info
+AXION_CAMERA_REAR_INFO :=  64,12,5
+AXION_CAMERA_FRONT_INFO := 32
+AXION_MAINTAINER := Ruby
+AXION_PROCESSOR := Qualcomm_Snapdragon_730
+
 # Use the latest approved GMS identifiers
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
